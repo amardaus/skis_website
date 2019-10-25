@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
- <title>Creating a Simple Parallax Scrolling Website</title>
+ <title>SKIS</title>
  <link rel="stylesheet" href="css/style.css"/>
  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
  <link href='https://fonts.googleapis.com/css?family=Marvel:400,700' rel='stylesheet' type='text/css'>
@@ -21,70 +21,85 @@
   <header id="header">
     <div class="content">
       <nav id="nav">
-        <div id="logo"><a href="#"><img class="logo" src="img/logo2.png"/></a></div>
+        <div id="logo"><a href="#"><img class="logo" src="img/logo_white.png"/></a></div>
        <ul>
-         <li><a href="#section1" class="active" title="O nas" >O nas</a></li>
-         <li><a href="#section2" title="Projekty">Projekty</a></li>
+         <li><a href="#section1" class="active" title="" >O nas</a></li>
+         <li><a href="#section2" title="Projekty">O nas</a></li>
          <li><a href="#section3" title="Wydarzenia">Wydarzenia</a></li>
-         <li><a href="#section4" title="ISWIKI">ISWIKI</a></li>
+         <li><a href="#section4" title="Projekty">Projekty</a></li>
          <li><a href="#section5" title="Kontakt">Kontakt</a></li>
        </ul>
       </nav>
     </div>
   </header>
 
- <div id="section1">
+ <div id="section1" class="container">
    <div class="content">
      <h2>Witaj na stronie</h2>
      <h2>Studenckiego Koła Informatyki Stosowanej</h2>
-
+     <h2>Uniwersytetu Jagiellońskiego</h2>
+     <div><img class="logooo" src="img/logo_white.png"/></div>
    </div>
  </div>
 
- <div id="section2">
-   <div class="content" >
-     <div class="quotes_container">
-       <h2 class="dark">Projekty</h2>
-       <h3 class="dark">Aktualnie probujemy ogarnac cos z ML chociaz nikt nic nie umie, beka</h3>
-     </div>
-   </div>
- </div>
-
- <div id="section3">
+ <div id="section2" class="container">
    <div class="content">
-     <div class="quotes_container">
-       <h2>Wydarzenia</h2>
-       <h3>To probowalismy zrobic hackaton ale nie wyszlo</h3>
-     </div>
-   </div>
- </div>
-
- <div id="section4">
-   <div class="content">
-     <div class="quotes_container">
-       <h2 class="dark">Fajnie</h2>
-       <h3 class="dark">Cośtam cokolwiek idk</h3>
+     <div class="container_center">
+       <h2 class="dark">Kim jesteśmy?</h2>
+       <h3 class="dark">Jesteśmy studentami informatyki na FAISie. </h3>
      </div>
       <div class="img_container">
-        <img class="item" src="img/image001.jpg" alt="Mountains">
-        <img class="item" src="img/image002.jpg" alt="Mountains">
-        <img class="item" src="img/image003.jpg" alt="Mountains">
+        <img class="item" src="img/image001.jpg">
+        <img class="item" src="img/image002.jpg">
+        <img class="item" src="img/image003.jpg">
       </div>
 
      </div>
    </div>
  </div>
 
- <div id="section5">
+ <div id="section3" class="container">
    <div class="content">
-     <div class="quotes_container">
-       <h3 class="quotes">FFFFFFFFFFFFFFFFFFF</h3>
+     <div class="container_center">
+       <h2>Wydarzenia</h2>
+       <h3>To probowalismy zrobic hackaton ale nie wyszlo</h3>
      </div>
-     <div class="img_container">
-       <img class="item" src="https://fais.uj.edu.pl/documents/3830070/4547511/2014-02-26-4.jpg/ddbfcfd1-72da-4ead-89ab-33b600447035"/>
-     </div>
-     <!-- https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover -->
    </div>
+ </div>
+
+   <div id="section4" class="container">
+     <div class="content" >
+       <div class="container_center">
+         <h2 class="dark">Projekty</h2>
+         <h3 class="dark">Aktualnie probujemy ogarnac cos z ML chociaz nikt nic nie umie, beka</h3>
+       </div>
+     </div>
+   </div>
+
+   <div id="section5" class="container">
+     <div class="content">
+       <div class="container_center">
+         <h2>Kontakt</h2>
+         <h3>Wydział Fizyki, Astronomii i Informatyki Stosowanej
+           <br>ul. prof. Stanisława Łojasiewicza 11
+           <br>pokój H-1-05</h3>
+           <div class="icon_container">
+             <img class="icon" src="img/icons8-email-48.png"/><a class="link" href="mailto:skis.uj@gmail.com">skis.uj@gmail.com</a>
+           </div>
+           <br>
+           <div class="icon_container">
+             <img class="icon" src="img/icons8-facebook-48.png"/><a class="link" href="https://www.facebook.com/skis.uj/">https://www.facebook.com/skis.uj/</a>
+           </div>
+           <div class="img_container">
+             <img class="item" src="img/fais.jpg"/>
+           </div>
+       </div>
+
+       </div>
+     </div>
+   </div>
+
+     <!-- https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_hover -->
  </div>
 
 </body>

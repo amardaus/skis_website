@@ -1,16 +1,11 @@
+*{
+  box-sizing: border-box
+}
+
 body{
 margin: 0;
 padding: 0;
 width: 100%;
-}
-h1 {
-  font-family:"Abel";
-  font-weight:normal;
-  font-size: 55px;
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  padding: 0;
 }
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -48,10 +43,6 @@ h3.dark{
   margin: 50px auto;
 }
 
-.content{
-  margin: 0 auto;
-}
-
 #header {
   width: 100%;
   position: fixed;
@@ -67,6 +58,14 @@ img.logo{
   float: left;
   margin-top:-15px;
   height: 60px;
+}
+
+img.logooo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 200px;
 }
 
 #logo a {
@@ -103,52 +102,33 @@ padding-left: 20px;
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1; }
 
-.quotes {
-font-family: 'Raleway', serif;
-font-weight: normal;
-font-size: 30px;
-text-align: left;
-margin: 50px auto;
+.container{
+  height: 100vh;
+
 }
 
-.quotes_container { width: 800px; margin: 0 auto; }
-
-#section1, #section2{ width: 100%; }
 #section1{
 background:url('../img/background00.jpg') 50% 0 no-repeat fixed;
-color: #fff;
-height: 600px;
-margin: 0;
-padding: 200px 0 260px 0;
 background-size: cover;
 }
+
 #section2{
   background-color: #fff;
-  color: #333333;
-  height: 300px;
-  margin: 0 auto;
   overflow: hidden;
-  padding: 200px 0;
 }
+
 #section3{
-  background: url(../img/background01.jpg) 50% 0 no-repeat fixed;
-  color: #fff;
-  height: 600px;
-  padding: 170px 0 0 0;
+  background: url("../img/background01.jpg") 50% 0 no-repeat fixed;
   background-size: cover;
 }
+
 #section4{
-background-color: #fff;
-color: #333333;
-height: 300px;
-padding: 200px 0;
+  background-color: #fff;
+  overflow: hidden;
 }
+
 #section5{
-background: url(../img/background10.jpg) 50% 0 no-repeat fixed;
-height: 200px;
-margin: 0 auto;
-padding: 250px 0;
-color: #fff;
+background: url("../img/background10.jpg") 50% 0 no-repeat fixed;
 background-size: cover;
 }
 
@@ -161,6 +141,42 @@ background-size: cover;
 }
 
 .item {
-  width: 20%;
   margin: 5px;
+  font-size: 20vw;
+  width: 300px;
+}
+
+.icon_container{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+img.icon{
+  padding-right: 5px;
+  height:1.5rem;
+  flex-wrap: wrap;
+}
+
+a.link{
+  font-family: 'Raleway', serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+
+
+.container_center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.content{
+  margin: 0 auto;
 }
