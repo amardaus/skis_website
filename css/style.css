@@ -5,17 +5,23 @@
 body{
 margin: 0;
 padding: 0;
-width: 100%;
 }
+
+@-ms-viewport{
+  width: device-width;
+}
+
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
   font-size: 40px;
+  font-size: 5vh;
   text-align: center;
   color: #fff;
   margin: 0;
   padding: 0;
 }
+
 h3 {
   font-family: "Raleway";
   font-weight: normal;
@@ -102,9 +108,26 @@ padding-left: 20px;
 #nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
 #nav li a:hover { color: #fff; opacity:1; }
 
+
+
+
+
+
+
 .container{
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.container_center{
+  flex-direction: column;
+  width: 100vw;
+}
+
+.content{
+  margin: 0 auto;
 }
 
 #section1{
@@ -163,20 +186,4 @@ a.link{
   font-family: 'Raleway', serif;
   text-decoration: none;
   color: #fff;
-}
-
-
-
-
-
-
-.container_center{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-.content{
-  margin: 0 auto;
 }
